@@ -1,5 +1,6 @@
 # Problem Definition:
 Correlation between Reddit daily thread and Stock market performance - Classification problem
+whether reddit comments generalise into the retail investors behaviour
 
 ## 1. Training data
 ### Training data - Reddit_WhatAreYourMoveTmr thread
