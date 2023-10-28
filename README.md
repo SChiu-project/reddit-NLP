@@ -1,6 +1,15 @@
 # Problem Definition:
 Correlation between Reddit daily thread and Stock market performance - Classification problem
 
+## Training data
+### Training data - Reddit_WhatAreYourMoveTmr thread
+ - WhatAreYourMoveTmr - 1Jul22-30Jun23
+ - record number: 242
+
+### Training data - Market_data
+ - df_NQ_1Jul22-30Jun23.csv
+ - df_SP_1Jul22-30Jun23.csv
+   
 ## Features Enginnering
 - number of keywords
 - keywords
@@ -10,13 +19,7 @@ Correlation between Reddit daily thread and Stock market performance - Classific
 - S&P 500 up or down (% of up/down?)
 - NQ % up or down
 
-## Training data - Reddit_WhatAreYourMoveTmr thread
- - WhatAreYourMoveTmr - 1Jul22-30Jun23
- - record number: 242
 
-## Training data - Market_data
- - df_NQ_1Jul22-30Jun23.csv
- - df_SP_1Jul22-30Jun23.csv
 
 ## Analysis proposal
 1. rank the top 1000 keywords among 1 year comment (fixed pool of keywords)
